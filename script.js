@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
       e.preventDefault();
       const status = form.querySelector('.form-status');
       if (status){
-        status.textContent = 'Thanks — your message has been noted. This is a demo form for the portfolio project, so nothing is sent to a live server.';
+        status.textContent = 'Thanks — your message has been noted. This is a demo form for the CSP project, so nothing is sent to a live server.';
         status.classList.add('show');
       }
       form.reset();
